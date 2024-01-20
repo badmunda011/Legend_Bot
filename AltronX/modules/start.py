@@ -40,6 +40,7 @@ async def start(event):
         BotId = AltBot.id
         TEXT = f"**𝐇ᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **✦ 𝐃ᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :~ [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)**\n\n"
+        TEXT += f"» **✦ 𝐑ᴇʟᴏ :~ [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/ll_BAD_MUNDA_WORLD_ll)**\n\n"
         TEXT += f"» ** 𝐋ᴇɢᴇɴᴅ sᴘᴀᴍ x ᴠᴇʀsɪᴏɴ :** `3.2`\n"
         TEXT += f"» **𝐓ᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
